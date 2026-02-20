@@ -105,7 +105,7 @@
 }
 
 @keyframes geoRotate2 {
-  to { transform: rotate(45deg + 360deg); }
+  to { transform: rotate(405deg); }
 }
 
 /* ===== Hero Content ===== */

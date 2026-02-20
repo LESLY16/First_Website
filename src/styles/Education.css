@@ -1,0 +1,129 @@
+.education-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.edu-card {
+  background: var(--navy-light);
+  border: 1px solid rgba(100, 255, 218, 0.08);
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.edu-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--teal);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.3s ease;
+}
+
+.edu-card:hover {
+  border-color: rgba(100, 255, 218, 0.25);
+  transform: translateX(6px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.edu-card:hover::before {
+  transform: scaleY(1);
+}
+
+.edu-icon {
+  font-size: 2.2rem;
+  flex-shrink: 0;
+  line-height: 1;
+  margin-top: 4px;
+}
+
+.edu-content {
+  flex: 1;
+}
+
+.edu-institution {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 6px;
+}
+
+.edu-degree {
+  color: var(--teal);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.edu-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.edu-period {
+  display: inline-block;
+  padding: 3px 10px;
+  background: var(--teal-dim);
+  color: var(--teal);
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-family: monospace;
+  border: 1px solid rgba(100, 255, 218, 0.15);
+}
+
+.edu-separator {
+  color: var(--slate);
+}
+
+.edu-location {
+  color: var(--slate);
+  font-size: 0.82rem;
+}
+
+.edu-badge {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  width: 52px;
+  height: 52px;
+  border: 2px solid rgba(100, 255, 218, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--slate);
+  font-size: 0.7rem;
+  font-weight: 600;
+  font-family: monospace;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.edu-card:hover .edu-badge {
+  border-color: var(--teal);
+  color: var(--teal);
+}
+
+@media (max-width: 600px) {
+  .edu-card {
+    padding: 24px 20px;
+    flex-direction: column;
+  }
+
+  .edu-badge {
+    position: static;
+    margin-top: 12px;
+    align-self: flex-start;
+  }
+}

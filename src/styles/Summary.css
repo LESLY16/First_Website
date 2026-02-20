@@ -1,0 +1,127 @@
+.summary-grid {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 40px;
+  align-items: start;
+}
+
+.summary-card {
+  background: var(--navy-light);
+  border: 1px solid rgba(100, 255, 218, 0.08);
+  border-radius: 12px;
+  padding: 40px;
+}
+
+.summary-text {
+  margin-bottom: 32px;
+}
+
+.summary-text p {
+  color: var(--slate);
+  line-height: 1.9;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+}
+
+.summary-text p:last-child {
+  margin-bottom: 0;
+}
+
+.highlight {
+  color: var(--teal);
+  font-weight: 500;
+}
+
+.summary-meta {
+  border-top: 1px solid rgba(100, 255, 218, 0.08);
+  padding-top: 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.meta-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.meta-link {
+  color: var(--slate-light);
+  font-size: 0.82rem;
+  transition: color 0.2s;
+  word-break: break-all;
+}
+
+.meta-link:hover {
+  color: var(--teal);
+}
+
+/* ===== Stats Column ===== */
+.summary-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.stat-card {
+  background: var(--navy-light);
+  border: 1px solid rgba(100, 255, 218, 0.08);
+  border-radius: 12px;
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.stat-card:hover {
+  border-color: var(--teal);
+  transform: translateY(-4px);
+}
+
+.stat-value {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--teal);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: var(--slate);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .summary-stats {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .stat-card {
+    flex: 1 1 120px;
+  }
+}
+
+@media (max-width: 600px) {
+  .summary-card {
+    padding: 28px 20px;
+  }
+
+  .summary-meta {
+    grid-template-columns: 1fr;
+  }
+}

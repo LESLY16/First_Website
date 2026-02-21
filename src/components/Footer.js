@@ -59,7 +59,7 @@ export default function Footer() {
           {/* Social Links */}
           <div style={{ display: 'flex', gap: '1rem' }}>
             <a
-              href="https://github.com/LESLY16"
+              href="https://github.com/ds1016"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -88,7 +88,7 @@ export default function Footer() {
               🐙 GitHub
             </a>
             <a
-              href="https://linkedin.com/in/lesly16"
+              href="https://linkedin.com/in/ds1016"
               target="_blank"
               rel="noopener noreferrer"
               style={{

@@ -160,7 +160,7 @@ export default function Hero() {
               letterSpacing: '0.01em',
             }}
           >
-            Resident Canadian{' '}
+            Resident Indian{' '}
             <span
               style={{
                 background: 'linear-gradient(135deg, #2563eb, #0ea5e9)',

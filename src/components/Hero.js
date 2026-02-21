@@ -6,14 +6,14 @@ const contactItems = [
   { icon: '✉️', label: 'lesly@ceptes.com', href: 'mailto:lesly@ceptes.com' },
   {
     icon: '💼',
-    label: 'linkedin.com/in/ds016',
-    href: 'https://linkedin.com/in/ds1016',
+    label: 'linkedin.com/in/ds1016',
+    href: 'https://linkedin.com/in/lesly16',
     external: true,
   },
   {
     icon: '🐙',
     label: 'github.com/ds1016',
-    href: 'https://github.com/ds1016',
+    href: 'https://github.com/LESLY16',
     external: true,
   },
 ];

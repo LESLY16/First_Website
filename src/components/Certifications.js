@@ -24,7 +24,7 @@ const contactLinks = [
   {
     icon: '💼',
     label: 'LinkedIn',
-    value: 'linkedin.com/in/lesly16',
+    value: 'linkedin.com/in/ds1016',
     href: 'https://linkedin.com/in/lesly16',
     color: '#0077b5',
     external: true,
@@ -32,7 +32,7 @@ const contactLinks = [
   {
     icon: '🐙',
     label: 'GitHub',
-    value: 'github.com/LESLY16',
+    value: 'github.com/ds1016',
     href: 'https://github.com/LESLY16',
     color: '#94a3b8',
     external: true,

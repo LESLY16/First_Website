@@ -41,7 +41,7 @@ const experiences = [
     company: 'Pinnacle Media',
     initials: 'PM',
     color: '#0ea5e9',
-    role: 'Associate EdTech',
+    role: 'Software Developer',
     location: 'Udupi, India',
     period: 'Aug 2018 – Sept 2019',
     type: 'Full-time',

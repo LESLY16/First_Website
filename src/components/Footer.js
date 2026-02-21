@@ -144,11 +144,6 @@ export default function Footer() {
               gap: '0.4rem',
             }}
           >
-            Built with{' '}
-            <span style={{ color: '#2563eb' }}>React</span>
-            {' '}&{' '}
-            <span style={{ color: '#7c3aed' }}>Framer Motion</span>
-            {' '}⚡
           </p>
         </motion.div>
       </div>

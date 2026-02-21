@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/First_Website/static/css/main.f117dcbd.css",
+    "main.js": "/First_Website/static/js/main.bdfe8702.js",
+    "index.html": "/First_Website/index.html",
+    "main.f117dcbd.css.map": "/First_Website/static/css/main.f117dcbd.css.map",
+    "main.bdfe8702.js.map": "/First_Website/static/js/main.bdfe8702.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f117dcbd.css",
+    "static/js/main.bdfe8702.js"
+  ]
+}

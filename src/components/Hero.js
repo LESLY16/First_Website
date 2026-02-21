@@ -2,8 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const contactItems = [
-  { icon: '📞', label: '+91-7349189696', href: 'tel:+917349189696' },
-  { icon: '✉️', label: 'leslysdsouza96@gmail.com', href: 'mailto:leslysdsouza96@gmail.com' },
+  { icon: '📞', label: '+91-8453311390', href: 'tel:+918453311390' },
+  { icon: '✉️', label: 'leslymxds16@outlook.com', href: 'mailto:leslymxds16@outlook.com' },
   {
     icon: '💼',
     label: 'linkedin.com/in/lesly16',

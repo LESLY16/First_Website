@@ -4,12 +4,12 @@ import { motion, useInView } from 'framer-motion';
 const experiences = [
   {
     id: 1,
-    company: 'CIPTS Software Pvt. Ltd.',
-    initials: 'CI',
+    company: 'CEPTES Software Pvt. Ltd.',
+    initials: 'CE',
     color: '#2563eb',
-    role: 'Resident Canadian Software Engineer',
+    role: 'Resident Indian Software Engineer',
     location: 'Bangalore, India',
-    period: 'Aug 2021 – Aug 2023',
+    period: 'Aug 2021 – Mar 2023',
     type: 'Full-time',
     achievements: [
       'Developed and maintained enterprise-level CRM solutions using Salesforce and custom JavaScript integrations, improving client data workflows by 35%.',
@@ -21,8 +21,8 @@ const experiences = [
   },
   {
     id: 2,
-    company: 'Teknophase University',
-    initials: 'TU',
+    company: 'Onenative Advertising Pvt. Ltd.',
+    initials: 'OA',
     color: '#7c3aed',
     role: 'Developer',
     location: 'Remote',

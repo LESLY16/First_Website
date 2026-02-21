@@ -63,6 +63,6 @@ src/
 
 ## 📬 Contact
 
-- **Email:** leslysdsouza96@gmail.com
-- **LinkedIn:** [linkedin.com/in/lesly16](https://linkedin.com/in/lesly16)
-- **GitHub:** [github.com/LESLY16](https://github.com/LESLY16)
+- **Email:** lesly@ceptes.com
+- **LinkedIn:** [linkedin.com/in/ds1016](https://linkedin.com/in/lesly16)
+- **GitHub:** [github.com/ds1016](https://github.com/LESLY16)

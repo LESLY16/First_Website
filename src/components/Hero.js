@@ -3,17 +3,17 @@ import { motion } from 'framer-motion';
 
 const contactItems = [
   { icon: '📞', label: '+91-8453311390', href: 'tel:+918453311390' },
-  { icon: '✉️', label: 'leslymxds16@outlook.com', href: 'mailto:leslymxds16@outlook.com' },
+  { icon: '✉️', label: 'lesly@ceptes.com', href: 'mailto:lesly@ceptes.com' },
   {
     icon: '💼',
-    label: 'linkedin.com/in/lesly16',
-    href: 'https://linkedin.com/in/lesly16',
+    label: 'linkedin.com/in/ds016',
+    href: 'https://linkedin.com/in/ds1016',
     external: true,
   },
   {
     icon: '🐙',
-    label: 'github.com/LESLY16',
-    href: 'https://github.com/LESLY16',
+    label: 'github.com/ds1016',
+    href: 'https://github.com/ds1016',
     external: true,
   },
 ];

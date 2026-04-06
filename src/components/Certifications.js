@@ -4,8 +4,8 @@ import { motion, useInView } from 'framer-motion';
 const certifications = [
   {
     id: 1,
-    name: 'Certified Full Stack Developer',
-    issuer: 'Industry Certification Board',
+    name: 'Certified for participation and win',
+    issuer: 'University Certification Board',
     icon: '🏅',
     color: '#f59e0b',
     description:
@@ -17,8 +17,8 @@ const contactLinks = [
   {
     icon: '✉️',
     label: 'Email',
-    value: 'lesly@ceptes.com',
-    href: 'mailto:lesly@ceptes.com',
+    value: 'leslym@pinnacledevstudio.com',
+    href: 'mailto:leslym@pinnacledevstudio.com',
     color: '#2563eb',
   },
   {
@@ -40,8 +40,8 @@ const contactLinks = [
   {
     icon: '📞',
     label: 'Phone',
-    value: '+91-8453311390',
-    href: 'tel:+918453311390',
+    value: '+91-7259942316',
+    href: 'tel:+917259942316',
     color: '#10b981',
   },
 ];

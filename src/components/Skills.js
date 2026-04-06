@@ -16,7 +16,7 @@ const skillCategories = [
     title: 'Cloud & Tools',
     color: '#0ea5e9',
     glow: 'rgba(14,165,233,0.3)',
-    skills: ['AWS', 'Git', 'Jenkins', 'Cortex', 'Salesforce', 'Jira'],
+    skills: ['AWS', 'Git', 'Jenkins', 'Salesforce', 'Jira'],
   },
   {
     id: 3,

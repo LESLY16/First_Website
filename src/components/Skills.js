@@ -8,7 +8,7 @@ const skillCategories = [
     title: 'Languages & Frameworks',
     color: '#2563eb',
     glow: 'rgba(37,99,235,0.3)',
-    skills: ['JavaScript', 'SQL', 'React', 'HTML/CSS', 'Lisp', 'J++'],
+    skills: ['JavaScript', 'SQL', 'React', 'HTML/CSS', 'Java', 'C++'],
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const skillCategories = [
     title: 'Database & Backend',
     color: '#7c3aed',
     glow: 'rgba(124,58,237,0.3)',
-    skills: ['Express', 'React Red', 'SQL Server', 'MongoDB', 'API Implementation'],
+    skills: ['SQL Server', 'MongoDB', 'API Implementation'],
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const skillCategories = [
     title: 'Focus Areas',
     color: '#10b981',
     glow: 'rgba(16,185,129,0.3)',
-    skills: ['CRM Systems', 'SFMC Sites', 'Application Development', 'Troubleshooting', 'Sike SDK'],
+    skills: ['CRM Systems', 'SFMC Sites', 'Application Development', 'Troubleshooting', 'Spike SDK'],
   },
 ];
 

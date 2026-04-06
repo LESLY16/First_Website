@@ -9,7 +9,7 @@ const certifications = [
     icon: '🏅',
     color: '#f59e0b',
     description:
-      'Comprehensive certification validating expertise in full-stack web development including frontend (React, HTML/CSS), backend (Node.js, Express), database management (SQL, MongoDB), and deployment best practices.',
+      'Awarded 1st and 2nd place honors in multiple regional/university-level cultural competitions, demonstrating excellence in Singing and skit.',
   },
 ];
 

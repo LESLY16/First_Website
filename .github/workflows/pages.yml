@@ -19,7 +19,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: 'lts/*'
+
+      - name: Upgrade npm and npx to latest
+        run: |
+          npm install -g npm@latest npx@latest
+          npm -v
+          npx -v
 
       - name: Install dependencies
         run: npm ci
